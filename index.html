@@ -9,15 +9,30 @@
         h1 { color: #333; }
         p { font-size: 18px; }
     </style>
+    <link rel="stylesheet" href="coundown.css">
+    <script src="coundown.js"></script>
 </head>
 <body class="body">
     <h1>Hello, I'm Md. Zakaria Hossain 👋</h1>
     <p>Welcome to my personal website.</p>
     <p>Connect with me on <a href="https://www.linkedin.com/in/zak89/" target="_blank">LinkedIn</a>.</p>
-    <p class="Coundown">
-        <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-        <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="Asia/Dhaka" data-date="2025-04-05 18:16">Countdown Timer</a>
-    </p>
-    
+  <!--countdown-->
+  <div class="container">
+    <h1 id="headline">Countdown to my birthday</h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    <div id="content" class="emoji">
+      <span>🥳</span>
+      <span>🎉</span>
+      <span>🎂</span>
+    </div>
+  </div>
+  <!--Countdown end-->    
 </body>
 </html>
